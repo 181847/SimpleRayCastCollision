@@ -1,0 +1,171 @@
+# Created by Octave 4.2.1, Thu Aug 31 20:47:34 2017 GMT <unknown@unknown>
+# name: N
+# type: scalar
+NaN
+
+
+# name: ans
+# type: matrix
+# rows: 1
+# columns: 20
+ 0 0.2631578947368421 0.5263157894736842 0.7894736842105263 1.052631578947368 1.31578947368421 1.578947368421053 1.842105263157895 2.105263157894737 2.368421052631579 2.631578947368421 2.894736842105263 3.157894736842105 3.421052631578947 3.684210526315789 3.947368421052631 4.210526315789473 4.473684210526316 4.736842105263158 5
+
+
+# name: bound
+# type: matrix
+# rows: 3
+# columns: 2
+ 1 2
+ 1 2
+ 1 2
+
+
+# name: collideLocation
+# type: matrix
+# rows: 1
+# columns: 3
+ 0 1 0
+
+
+# name: collideRect
+# type: matrix
+# rows: 3
+# columns: 2
+ -1 1
+ -1 1
+ -1 1
+
+
+# name: collideWorld
+# type: diagonal matrix
+# rows: 4
+# columns: 4
+1
+1
+1
+1
+
+
+# name: h1
+# type: scalar
+-100.4552778540694
+
+
+# name: i
+# type: scalar
+4
+
+
+# name: indices
+# type: matrix
+# rows: 1
+# columns: 3
+ 1 2 3
+
+
+# name: isCollided
+# type: scalar
+1
+
+
+# name: m
+# type: matrix
+# rows: 2
+# columns: 3
+ NaN 0 1
+ -7 NaN 0
+
+
+# name: perpendRay
+# type: matrix
+# rows: 4
+# columns: 4
+ 1 0 0 0
+ 0 6.123031769111886e-017 1 0
+ 0 -1 6.123031769111886e-017 0
+ 0 1 0 1
+
+
+# name: r
+# type: matrix
+# rows: 4
+# columns: 4
+ 0.8660254037844387 0 -0.4999999999999999 0
+ 0.2499999999999999 0.8660254037844387 0.4330127018922193 0
+ 0.4330127018922193 -0.4999999999999999 0.7500000000000001 0
+ 0 0 0 1
+
+
+# name: ray
+# type: matrix
+# rows: 4
+# columns: 4
+ 0.8660254037844387 0 -0.4999999999999999 0
+ 0.2499999999999999 0.8660254037844387 0.4330127018922193 0
+ 0.4330127018922193 -0.4999999999999999 0.7500000000000001 0
+ 0 0 -2 1
+
+
+# name: rayMax
+# type: scalar
+100
+
+
+# name: rotation
+# type: matrix
+# rows: 4
+# columns: 4
+ 1 0 0 0
+ 0 6.123031769111886e-017 1 0
+ 0 -1 6.123031769111886e-017 0
+ 0 0 0 1
+
+
+# name: t
+# type: matrix
+# rows: 4
+# columns: 4
+ 1 0 0 0
+ 0 1 0 0
+ 0 0 1 0
+ 0 0 -8 1
+
+
+# name: unitVector
+# type: matrix
+# rows: 1
+# columns: 4
+ 0 0 1 0
+
+
+# name: world
+# type: diagonal matrix
+# rows: 4
+# columns: 4
+1
+1
+1
+1
+
+
+# name: x
+# type: matrix
+# rows: 1
+# columns: 3
+ 0 1 1
+
+
+# name: y
+# type: matrix
+# rows: 1
+# columns: 3
+ 0 0 1
+
+
+# name: z
+# type: matrix
+# rows: 1
+# columns: 3
+ 0 0 0
+
+

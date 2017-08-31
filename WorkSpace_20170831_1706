@@ -1,0 +1,63 @@
+# Created by Octave 4.2.1, Thu Aug 31 17:06:08 2017 GMT <unknown@unknown>
+# name: ans
+# type: scalar
+0
+
+
+# name: bound
+# type: matrix
+# rows: 3
+# columns: 2
+ 1 2
+ 1 2
+ 1 2
+
+
+# name: indices
+# type: matrix
+# rows: 1
+# columns: 3
+ 1 2 3
+
+
+# name: ray
+# type: diagonal matrix
+# rows: 4
+# columns: 4
+1
+1
+1
+1
+
+
+# name: world
+# type: diagonal matrix
+# rows: 4
+# columns: 4
+1
+1
+1
+1
+
+
+# name: x
+# type: matrix
+# rows: 1
+# columns: 3
+ 0 1 1
+
+
+# name: y
+# type: matrix
+# rows: 1
+# columns: 3
+ 0 0 1
+
+
+# name: z
+# type: matrix
+# rows: 1
+# columns: 3
+ 0 0 0
+
+
