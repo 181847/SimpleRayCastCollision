@@ -1,0 +1,307 @@
+# Created by Octave 4.2.1, Sat Sep 02 18:15:00 2017 GMT <unknown@unknown>
+# name: N
+# type: scalar
+NaN
+
+
+# name: Rect1
+# type: matrix
+# rows: 4
+# columns: 6
+ -1 1 1 0 0 0
+ -1 1 0 1 0 0
+ -1 1 0 0 1 0
+ 3 1 0 0 0 1
+
+
+# name: Rect2
+# type: matrix
+# rows: 4
+# columns: 6
+ -1 1 1 0 0 0
+ -1 1 0 1 0 0
+ -1 1 0 0 1 0
+ 3 1 0 0 0 1
+
+
+# name: Rects
+# type: matrix
+# rows: 24
+# columns: 6
+ -1 1 1 0 0 0
+ -1 1 0 1 0 0
+ -1 1 0 0 1 0
+ 3 1 -3 0 0 1
+ -1 1 1 0 0 0
+ -1 1 0 1 0 0
+ -1 1 0 0 1 0
+ 3 1 0 0 0 1
+ -1 1 1 0 0 0
+ -1 1 0 1 0 0
+ -1 1 0 0 1 0
+ 3 1 3 0 0 1
+ -1 1 1 0 0 0
+ -1 1 0 1 0 0
+ -1 1 0 0 1 0
+ 3 1 -3 0 -3 1
+ -1 1 1 0 0 0
+ -1 1 0 1 0 0
+ -1 1 0 0 1 0
+ 3 1 0 0 -3 1
+ -1 1 1 0 0 0
+ -1 1 0 1 0 0
+ -1 1 0 0 1 0
+ 3 1 3 0 -3 1
+
+
+# name: ans
+# type: scalar
+0
+
+
+# name: bound
+# type: matrix
+# rows: 3
+# columns: 2
+ 1 2
+ 1 2
+ 1 2
+
+
+# name: closestLocation
+# type: matrix
+# rows: 1
+# columns: 3
+ 2.177350269189626 -0.6666666666666664 -1
+
+
+# name: collideLocation
+# type: matrix
+# rows: 1
+# columns: 3
+ 0 1 0
+
+
+# name: collideRect
+# type: matrix
+# rows: 3
+# columns: 2
+ -1 1
+ -1 1
+ -1 1
+
+
+# name: collideWorld
+# type: diagonal matrix
+# rows: 4
+# columns: 4
+1
+1
+1
+1
+
+
+# name: h1
+# type: scalar
+-100.4552778540694
+
+
+# name: i
+# type: scalar
+6
+
+
+# name: iC
+# type: scalar
+1
+
+
+# name: index
+# type: scalar
+3
+
+
+# name: indices
+# type: matrix
+# rows: 1
+# columns: 3
+ 1 2 3
+
+
+# name: isCollided
+# type: scalar
+1
+
+
+# name: location
+# type: matrix
+# rows: 1
+# columns: 3
+ 0.99 0 -1
+
+
+# name: m
+# type: matrix
+# rows: 2
+# columns: 3
+ NaN 0 1
+ -7 NaN 0
+
+
+# name: perpendRay
+# type: matrix
+# rows: 4
+# columns: 4
+ 1 0 0 0
+ 0 1 0 0
+ 0 0 1 0
+ 3 0 -3 1
+
+
+# name: r
+# type: matrix
+# rows: 4
+# columns: 4
+ 0.8660254037844387 0 -0.4999999999999999 0
+ 0.2499999999999999 0.8660254037844387 0.4330127018922193 0
+ 0.4330127018922193 -0.4999999999999999 0.7500000000000001 0
+ 0 0 0 1
+
+
+# name: ray
+# type: matrix
+# rows: 4
+# columns: 4
+ 0.8660254037844387 0 -0.4999999999999999 0
+ 0.2499999999999999 0.8660254037844387 0.4330127018922193 0
+ 0.4330127018922193 -0.4999999999999999 0.7500000000000001 0
+ 1.6 0 -2 1
+
+
+# name: rayMax
+# type: scalar
+3
+
+
+# name: rect1
+# type: matrix
+# rows: 4
+# columns: 4
+ 1 0 0 0
+ 0 1 0 0
+ 0 0 1 0
+ 0 0 0 1
+
+
+# name: rectShape
+# type: matrix
+# rows: 4
+# columns: 2
+ -1 1
+ -1 1
+ -1 1
+ 3 1
+
+
+# name: rectSize
+# type: matrix
+# rows: 3
+# columns: 2
+ -1 1
+ -1 1
+ -1 1
+
+
+# name: rects
+# type: matrix
+# rows: 24
+# columns: 4
+ 1 0 0 0
+ 0 1 0 0
+ 0 0 1 0
+ 0 0 0 1
+ 1 0 0 0
+ 0 1 0 0
+ 0 0 1 0
+ 0 0 0 1
+ 1 0 0 0
+ 0 1 0 0
+ 0 0 1 0
+ 0 0 0 1
+ 1 0 0 0
+ 0 1 0 0
+ 0 0 1 0
+ 0 0 0 1
+ 1 0 0 0
+ 0 1 0 0
+ 0 0 1 0
+ 0 0 0 1
+ 1 0 0 0
+ 0 1 0 0
+ 0 0 1 0
+ 0 0 0 1
+
+
+# name: rotation
+# type: matrix
+# rows: 4
+# columns: 4
+ 1 0 0 0
+ 0 6.123031769111886e-017 1 0
+ 0 -1 6.123031769111886e-017 0
+ 0 0 0 1
+
+
+# name: t
+# type: matrix
+# rows: 4
+# columns: 4
+ 1 0 0 0
+ 0 1 0 0
+ 0 0 1 0
+ 0 0 -8 1
+
+
+# name: tl
+# type: scalar
+2
+
+
+# name: unitVector
+# type: matrix
+# rows: 1
+# columns: 4
+ 0 0 1 0
+
+
+# name: world
+# type: diagonal matrix
+# rows: 4
+# columns: 4
+1
+1
+1
+1
+
+
+# name: x
+# type: matrix
+# rows: 1
+# columns: 3
+ 0 1 1
+
+
+# name: y
+# type: matrix
+# rows: 1
+# columns: 3
+ 0 0 1
+
+
+# name: z
+# type: matrix
+# rows: 1
+# columns: 3
+ 0 0 0
+
+
